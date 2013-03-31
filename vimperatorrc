@@ -1,0 +1,5 @@
+:set editor='bash -lc "MacVim  \$*" MacVim '
+source ~/.vimperator/evernote.clearly.js
+
+:map <C-c> :clearly<cr>
+:map <C-s> :clearly save<cr>
