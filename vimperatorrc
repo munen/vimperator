@@ -1,5 +1,8 @@
 :set editor='bash -lc "MacVim  \$*" MacVim '
-source ~/.vimperator/evernote.clearly.js
+ignorekeys add drive.google.com
+ignorekeys add docs.google.com
 
-:map <C-c> :clearly<cr>
-:map <C-s> :clearly save<cr>
+"source ~/.vimperator/evernote.clearly.js
+
+":map <C-c> :clearly<cr>
+":map <C-s> :clearly save<cr>
